@@ -26,5 +26,5 @@ In this track, you’ll learn how to import, clean, manipulate, and visualize da
  - Hypothesis Testing in Python
  
 ### Certificate of Completion
-<img src="D:/Screenshot 2022-09-01 005953.png" width="1000">
+<img src="D:/Screenshot 2022-09-01 005953.png" width="1000" height="500">
 
