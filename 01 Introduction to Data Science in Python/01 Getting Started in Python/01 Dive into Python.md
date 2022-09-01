@@ -10,7 +10,13 @@
      - `nltk` (which works with text data)
     
  - We must import any modules that we plan on using before we can write any other code, If we don't import modules, we can't use the tools that they contain.
-  ![alt text](D:\DataCamp\01\Screenshot 2022-09-01 062840.png)
- 
-  - In this example, by importing the modules pandas and matplotlib, we're able to unbox the tools necessary to create a graph.
-  - In this case, `pandas` gives us the tools to read data from a file, and `matplotlib` gives us the tools to plot the data.
+ - To import a module, simply typet `import` followed by a space and then the "module name".
+ - To give your module an alias, just add `as` and a shorter name to your original import statement.
+  - Imprting a Module :
+ ```
+  import pandas
+  ```
+  - Imprting a Module with an alias :
+```
+import pandas as pb
+```
