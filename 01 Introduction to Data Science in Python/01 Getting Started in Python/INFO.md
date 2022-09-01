@@ -44,11 +44,13 @@
     
 - Variables come in many "flavors", two important flavors are floats and strings. 
   - Floats represent either integers or decimals.
+  
   ```
       height = 24
       width = 24.5
       ```
-  - Strings represent text and can contain letters, numbers, spaces, and special characters.
+      
+ - Strings represent text and can contain letters, numbers, spaces, and special characters.
     - We define a string by putting either 'single quotes' or "double quotes" around a piece of text.
     ``` 
         name = 'bayes'
@@ -56,15 +58,16 @@
         ```
 - Displaying variables :
   - We simply type the word`print` and put our variable name inside of the parentheses.
+  
   ```
       name = "Bayes"
       height = 24
       width = 25.5
       
       print(height)
-      ```
-      ```
+      
+  ```
+```
       24
       ```
-      
 
