@@ -94,8 +94,25 @@
   -`plt.show()` display plot in a new window
   
   
-|     Letter index   |   Letter   |   Frequency    |
-|------------        |------      |--------        |
-|1                   |A           |7.38            |
-|2                   |B           |1.09            |
-|3                   |C           |2.46            |
+ | Letter index|   Letter   |   Frequency |
+ |------------ |------      |--------     |
+ |1            |A           |7.38         |
+ |2            |B           |1.09         |
+ |3            |C           |2.46         |
+ 
+ - Function name EX : plt.plot(df.letter_inbex, df.frequency, label = 'Ransom')
+   - Starts with the module that the function "lives" in ('plt')
+   - Followed by the name of the function ('plot')
+   - Function name is allways followed by ()
+   
+- Positional Arrguments EX : df.letter_inbex, df.frequency
+
+  - These are inputes to a function; they tell the function how to do its job
+  - Each argument is separated by a comma, (if you forget the comma, you will get a syntax error)
+  
+- keyword arguments EX: label = 'Ransom'
+  - Must come after positionl arguments 
+  - Start with the name of thr argument (label), then an equal sign (=)
+  - Followed br the argument (Ransom)
+ 
+ 
