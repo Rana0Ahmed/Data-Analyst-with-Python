@@ -73,4 +73,29 @@
     ```
         24
     ```
+## III
 
+- Functions perfotm actions
+
+  ```
+   import pandas as pd
+   from matplotlib import pylot as plt
+
+   df = pd.read_cvs('letter frequency.cvs)
+
+   plt.plot(df.letter_inbex, df.frequency, label = 'Ransom')
+   plt.show()
+
+  ```
+  -`pd.read_cvs()` turnes a cvs files into a table in python
+  
+  -`plt.plot()` turnes daa into a line plot
+  
+  -`plt.show()` display plot in a new window
+  
+  
+|     Letter index   |   Letter   |   Frequency    |
+|------------        |------      |_--------       |
+|1                   |A           |7.38            |
+|2                   |B           |1.09            |
+|3                   |C           |2.46            |
