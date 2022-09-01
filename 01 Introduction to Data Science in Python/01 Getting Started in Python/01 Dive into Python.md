@@ -10,7 +10,7 @@
      - `nltk` (which works with text data)
     
  - We must import any modules that we plan on using before we can write any other code, If we don't import modules, we can't use the tools that they contain.
-  <img src="D:\DataCamp\01\Screenshot 2022-09-01 062840.png" width="600">
+  ![alt text](D:\DataCamp\01\Screenshot 2022-09-01 062840.png)
  
   - In this example, by importing the modules pandas and matplotlib, we're able to unbox the tools necessary to create a graph.
   - In this case, `pandas` gives us the tools to read data from a file, and `matplotlib` gives us the tools to plot the data.
