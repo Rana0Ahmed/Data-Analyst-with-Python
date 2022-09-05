@@ -89,6 +89,18 @@
       credit_records[Location]
       ```
       
-      - Remember that square brackets `[]` are not the same at parentheses `()`.
+      - Remember that square brackets `[]` are not the same at parentheses `()` .
+      
+  - Selecting rows with logic :
+  ```
+  credit_records[credit_records.price > 20]
+  ```
+   Here, we select rows of credit_records where the price is greater than 20 dollars.
+   
+     This statement will select all rows of credit_records where the column price is greater than $20.
+  
+  
+  
+    
        
 
