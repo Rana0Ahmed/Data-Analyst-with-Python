@@ -56,12 +56,22 @@
   
   - We can give our plot a title by using plt-dot-title.
   ``` 
-  plt.title("Ranson Note Letter")
- ```
- 
- - kdmcjmwdxwdxewxd
-   - ed3edmedmom
- 
- 
+  plt.title("Ranson Note Letter")  
+  
+  ```
+- Legends :
+  - If we have multiple lines in the same plot, we'll want to add a legend. There are two steps for adding a legend :
+    - First, we must add the keyword argument label to each instance of `plt.plot`.
+    - We must add a final function: `plt.legend`. Like `plt.show`, plt.legend does not take any arguments.
+    ```
+    plt.plot(Aditya.days,aditya.cases,label="Aditya")
+    plt.plot(deshaun.days,deshaun.cases,label="Deshaun")
+    plt.plot(mengfei.days,mengfei.cases,label="Mengfei")
+    
+    plt.legand()
+    ```
+    
+    
+    
      
     
