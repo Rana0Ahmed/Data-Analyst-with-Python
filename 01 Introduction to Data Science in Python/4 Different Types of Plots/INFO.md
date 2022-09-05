@@ -1,6 +1,6 @@
 # Notes
 ## I
-- Making a scatter plot :
+## Making a scatter plot :
   - A scatter plot allows us to show where each data point sits on a grid.
   - Line plots let us visualize ordered data points, but scatter plots are a great way of viewing un-ordered points.
   - In matplotlib, we create scatter plots by using the command `plt.scatter`.
