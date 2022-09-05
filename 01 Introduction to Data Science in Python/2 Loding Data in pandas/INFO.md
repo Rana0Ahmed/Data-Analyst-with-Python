@@ -97,7 +97,7 @@
   ```
    Here, we select rows of credit_records where the price is greater than 20 dollars.
    
-     This statement will select all rows of credit_records where the column price is greater than $20.
+   This statement will select all rows of credit_records where the column price is greater than $20.
   
   
   
