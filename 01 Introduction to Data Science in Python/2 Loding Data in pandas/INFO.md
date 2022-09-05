@@ -45,6 +45,50 @@
        ```
        df.info()
        ```
-       
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  # II.
+  ## To access that data
+  - By selecting columns :
+    - This means we'll be getting all values from a particular column in a DataFrame.
+    - this code selects the column "price" and then calls the method "sum" on that column to get the total amount of money.
+    ```
+    credit_records.price.sum()
+    ```
+    
+    - Columns names are strings,(strings can have spaces or special characters. That means that columns in DataFrames can also have spaces or special characters).
+      - Selecting with brackets and string :
+      ```
+      suspect = credit_records['suspect']
+      ```
+      
+      -  Selecting with a dot :
+      ```
+      price = credit_records.price
+      ```
+      
+    - Common mistakes in column selection :
+      - when your column name contains spaces or special characters, you need to use bracket and string notation, and not dot notation.
+      
+      ```
+      police_report["Is golden retriever?"] 
+      
+      Not
+      
+      police_report.Is golden retriever?
+      ```
+      
+      - forgetting to put quotation marks around the column string when using brackets and string notation.
+      - If you forget the quotation marks, then Python thinks that the column name is actually a variable that hasn't been defined yet.
+      
+      ```
+      credit_records['Location']
+      
+      Not
+      
+      credit_records[Location]
+      ```
+      
+      - Remember that square brackets `[]` are not the same at parentheses `()`.
        
 
