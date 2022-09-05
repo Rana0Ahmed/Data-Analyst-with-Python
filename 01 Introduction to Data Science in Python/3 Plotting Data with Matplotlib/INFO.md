@@ -68,9 +68,49 @@
     plt.plot(deshaun.days,deshaun.cases,label="Deshaun")
     plt.plot(mengfei.days,mengfei.cases,label="Mengfei")
     
-    plt.legand()
+    plt.legend()
     ```
-    
+- Arbitrary text :
+  - To add a quick note directly onto our plot. We can do this by using the function `plt.text`.
+  - This function takes three arguments: the x-coordinate where we want to put the text, the y-coordinate where we want to put the text, and the text we want to display as a string.
+  ```
+  plt.text(xcoord,ycoord,"Text Message")
+  plt.text(5,9,"Unusually low h frequency")
+  ```
+- Modifying text :
+  - If we want to change the size of `font`, we can use the keyword argument `fontsize` and pass in a float.
+  ```
+  plt.title("plot title", fontsize=20)
+  ```
+  - If we want to change the `color of font`, we can use the keyword argument `color` and pass in a string.
+  ```
+  plt.legand(color="green")
+  ```
+  
+-  Changing line color :
+```
+plt.plot(x, y1, color="orange")
+```
+- Changing line width :
+```
+plt.plot(x, y1, linewidth=3)
+```
+-  Changing line style :
+```
+plt.plot(x, y1, linestyle="--")
+```
+- Adding markers :
+```
+plt.plot(x, y1, marker='x')
+```
+- Setting a style :
+  - To make more drastic change to our graph. We can change the background, colors, and fonts for our entire graph by setting a style
+  - The function `plt.style.use` accepts several different strings which correspond to different plotting styles
+  ```
+  plt.style.use('ggplot')
+  ```
+
+
     
     
      
