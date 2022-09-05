@@ -21,7 +21,7 @@
     - We use the frequency column from the DataFrame ransom
   - Displaying the Results :
     - We use a second function :`plt.show`
-      - This function takes no arguments. You just type it, and then your plot will pop open in a new window.
+    - This function takes no arguments. You just type it, and then your plot will pop open in a new window.
       
   - Multiple Lines :
     -  Just add a second plt-dot-plot command before adding plt-dot-show.
@@ -36,8 +36,8 @@
     ```
   <img src ="https://matplotlib.org/1.4.1/pyplots/pyplot_three.hires.png" width="350">
   
-       In this example, we plotted two different datasets: data1, which represents a straight line and data2, which represents a parabola.
+     In this example, we plotted two different datasets: data1, which represents a straight line and data2, which represents a parabola.
        
-       Matplotlib will automatically give the two lines different colors.
+     Matplotlib will automatically give the two lines different colors.
       
     
