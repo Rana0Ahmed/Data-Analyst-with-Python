@@ -58,6 +58,50 @@
     <img src="https://tse4.mm.bing.net/th?id=OIP.5nV3Jggs0ah5De3FJmfCXwHaFR&pid=Api&P=0" width="350">
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## III
+## Making a histogram :
+  - A histogram visualizes the distribution of values in a dataset (we place each piece of data into a bin).
+  - We simply use the command `plt.hist`. This function takes just one positional argument(our dataset).
+  ```
+  plt.hist(gravel.mass)
+  plt.show()
+  ```
+  
+  <img src="https://3.bp.blogspot.com/-OnfAJfKv_ls/UTCnDqq7BiI/AAAAAAAAANY/VFWGuknGw-I/s1600/hist2.jpeg" width="350">
+  
+  - By default, matplotlib will create a histogram with 10 bins of equal size spanning from the smallest sample to the largest sample in our dataset.
+  - Changing bins :
+    - we can use the keyword argument `bins`, Bins accepts one integer.
+  - Changing range :
+    - we can use the keyword `range` to set the minimum and maximum value for our histogram.
+    
+    ```
+    plt.hist(data, bins=nbins)
+    plt.hist(gravel.mass, bins=40)
+    plt.hist(data, range(xmin, xmax))
+    plt.hist(gravel.mass, range=(50, 100))
+    
+    plt.show()
+    
+    ```
+    <img src="https://i.stack.imgur.com/FVcPd.png" width="350">
+
+  - Normalizing :
+    - Normalization reduces the height of each bar by a constant factor so that the sum of the areas of each bar adds to one.
+    - This would make our two histograms comparable, even if the sample sizes are different, We can normalize our histogram by using the keyword argument `density = True`.
+    
+    ```
+    plt.hist(cat_weight, denssity=True)
+    plt.hist(dog_weight, denssity=True)
+    
+    plt.show()
+    ```
+    
+    <img src="https://i.stack.imgur.com/FtepJ.png" width="400">
+    
+    
+
+ 
 
     
     
