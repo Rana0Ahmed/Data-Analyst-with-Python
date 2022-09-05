@@ -1,6 +1,6 @@
 # Notes :
 ## I.
-## create line plots using another Python module matplotlib :
+## Creating line plots using another Python module (matplotlib) :
 - Introducing Matplotlib :
   - Import the module matplotlib, Data Scientists only load in the submodule pyplot and use the alias plt.
   ```
@@ -39,5 +39,29 @@
      In this example, we plotted two different datasets: data1, which represents a straight line and data2, which represents a parabola.
        
      Matplotlib will automatically give the two lines different colors.
-      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## II.
+# Adding text to plots
+- Axes and title labels :
+  - We can label the horizontal (or "x") axis using the command plt-dot-xlabel. 
+  ```
+  plt.xlabel("Label")
+  ```
+  
+  - we can label the vertical (or "y") axis using the command plt-dot-ylabel.
+  ```
+  plt.ylabel("Frequency")
+  ```
+  
+  - We can give our plot a title by using plt-dot-title.
+  ``` 
+  plt.title("Ranson Note Letter")
+ ```
+ 
+ - kdmcjmwdxwdxewxd
+   - ed3edmedmom
+ 
+ 
+     
     
