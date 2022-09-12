@@ -67,7 +67,9 @@
        ```
        data.loc['row1', 'row2', ...]['column1', 'column2', ....]
        ```
-    - Simply replace the first list that specifies the row labels with a colon, a slice going from beginning to end. This time, the intersection spans all rows, but only two columns.
+       
+     - Simply replace the first list that specifies the row labels with a colon, a slice going from beginning to end. This time, the intersection spans all rows, but only two columns.
+    
     ```
     data.loc[:, ['column1', 'column2']]
     ```
