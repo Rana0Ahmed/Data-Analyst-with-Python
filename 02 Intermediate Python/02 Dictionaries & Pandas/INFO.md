@@ -91,3 +91,16 @@
    for val in np.nditer(my_arr) :
         print(val)
    ```    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## IV
+- Random Numbers
+  - Random generators
+    - we called the `rand` function
+    ```
+    import numpy as np
+    np.random.rand()
+    ```
+    
+  - seed(): sets the random seed, so that your results are reproducible between simulations. As an argument, it takes an integer of your choosing. If you call the function, no output will be generated.
+  - rand(): if you don't specify any arguments, it generates a random float between zero and one.
+  
