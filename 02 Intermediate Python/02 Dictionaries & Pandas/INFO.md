@@ -75,3 +75,18 @@
       ```
   - iloc
     - using iloc is similer to using loc but we use position in iloc.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## III
+_ Comparison Operators
+  - Loop Data Structures
+    - Dictionary : 
+  ```
+  for k, v in dict.items()
+  print(k + " is" + str(v))
+  ```
+   - NumPy array :
+   ```
+   for val in np.nditer(my_arr) :
+        print(val)
+   ```    
