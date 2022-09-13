@@ -14,24 +14,24 @@
    dogs.sort_values("weight")
    ```
    
-   #Setting the ascending argument to False will sort the data the other way around, from heaviest dog to lightest dog.
+   - Setting the ascending argument to False will sort the data the other way around, from heaviest dog to lightest dog.
    ```
    dogs.sort_values("weight", assending=False)
    ```
-   #We can sort by multiple variables by passing a list of column names to sort_values.
+   - We can sort by multiple variables by passing a list of column names to sort_values.
    ```
    dogs.sort_values(["weight", "height"])
    ```
-   #To change the direction values are sorted in, pass a list to the ascending argument to specify which direction sorting should be done for each variable.
+   - To change the direction values are sorted in, pass a list to the ascending argument to specify which direction sorting should be done for each variable.
    ```
    dogs.sort_values(["weight", "height"] accending=[True, False])
    ```
-   #We may want to zoom in on just one column
+   - We may want to zoom in on just one column
    ```
    dogs["name"]
    ```
    
-   #To select multiple columns, you need two pairs of square brackets.
+   - To select multiple columns, you need two pairs of square brackets.
    ```
    dogs[["name", "bleed"]]
    ```
